@@ -1,0 +1,46 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #08089a;
+            color: #e9ecf0; /* Updated for better contrast */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #e9ecf0;
+        }
+
+        button {
+            background-color: #68e24a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0b9727;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        #wordDisplay, #definitionDisplay {
+            background-color: #000000;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 80%;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
